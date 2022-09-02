@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Menu">
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/roundbtn2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/roundbtn3"
+        android:text="logout"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backtomenu"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/roundbtn3"
+        android:text="back"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addMoneyButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="add money"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Welcome"
+        android:textColor="@color/material_on_background_emphasis_medium"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="user"
+        android:textColor="@color/material_on_background_emphasis_medium"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="352dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="1000dp"
+        android:background="@drawable/card"
+        android:text="add money"
+
+        android:textStyle="bold">
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/editTextTextPersonName2"-->
+        <!--            android:layout_width="250dp"-->
+        <!--            android:layout_height="160dp"-->
+        <!--            android:layout_marginStart="85dp"-->
+        <!--            android:ems="10"-->
+        <!--            android:inputType="textPersonName"-->
+        <!--            android:text="Bakiye :"-->
+        <!--            android:textSize="30dp"-->
+        <!--            android:textStyle="bold" />-->
+
+    </ImageView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="1000dp"
+        android:fontFamily="sans-serif-black"
+        android:text="50TL"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+</RelativeLayout>
